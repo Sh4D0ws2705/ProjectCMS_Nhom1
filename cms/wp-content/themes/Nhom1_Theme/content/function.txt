@@ -1,0 +1,25 @@
+  /// ---------------------------------- lấy ra tất cả danh mục cha
+  <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Xem thêm
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <?php
+                            $args = array(
+                                'taxonomy' => 'product_cat', // Đúng là 'taxonomy' thay vì 'taxconomy'
+                                'hide_empty' => false, // Đặt thành true nếu muốn ẩn danh mục trống
+                                'parent' => 0, // Lấy các danh mục cha
+                                'number' => 3, //lấy ra 3 danh mục thôi
+                                'order' => 'DESC'
+                            );
+
+                            $categories = get_categories($args);
+                            foreach ($categories as $category) { ?>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo get_term_link($category->slug, 'product_cat'); ?>"><?php echo $category->name; ?></a>
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                      

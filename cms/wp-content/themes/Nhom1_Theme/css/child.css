@@ -1,0 +1,262 @@
+.wpforms-form .wpforms-field input[type="text"],
+.wpforms-form .wpforms-field input[type="email"] {
+    width: 100%;
+    border: 0;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+}
+
+.wpforms-submit-container {
+  float: right !important;
+}
+button#wpforms-submit-197 {
+  background-color: var(--bs-primary);
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+
+form.aws-search-form.aws-show-clear {
+  margin-bottom: 0 !important;
+  border-radius: 10px;
+ 
+}
+.aws-container{
+  margin-right: 10px;
+}
+
+.aws-wrapper .aws-search-field {
+  border-radius: 20px !important;    
+  border: 1px solid var(--bs-primary);
+}
+/* custom css woocommerce */
+
+nav.woocommerce-pagination {
+    margin-top: 30px;
+  }
+  
+  .product-cate {
+    margin-top: 120px;
+  }
+  
+  .product-cate span.price del {
+    color: black !important ;
+    font-size: 14px; 
+  }
+  .product-cate span.price ins {
+    text-decoration: none;
+  }
+  
+  .product-cate span.price bdi {
+    color: red;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .product-cate h2.woocommerce-loop-product__title {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 57px;
+    line-height: 1.1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .product-cate h2.woocommerce-loop-product__title:hover {
+    color: var(--bs-primary);
+  }
+  
+  /* end custom css woocommerce */
+  
+  span.breadcrumb_last {
+    color: #fff;
+  }
+  
+  textarea#wpforms-159-field_3,
+  input#wpforms-159-field_2,
+  input#wpforms-159-field_1 {
+    border-radius: 10px;
+    border-color: var(--bs-primary);
+  }
+  button#wpforms-submit-159 {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+  }
+  button#wpforms-submit-159:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+    border: none;
+  }
+  
+  .posts img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pagination .page-numbers {
+    border-radius: 10px;
+  }
+  .pagination .page-numbers:hover {
+    background: var(--bs-primary);
+    color: #fff;
+  }
+  
+  .pagination span.page-numbers.current {
+    background: var(--bs-primary);
+    color: #fff;
+  }
+  
+  .pagination span.page-numbers {
+    border: 1px solid var(--bs-primary);
+    padding: 10px 16px;
+    margin: 0 4px;
+  }
+  
+  .content-wrap .post_excerpt {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 52px;
+    margin: 0 auto;
+    line-height: 1.1;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .content-wrap .post_title:hover {
+    color: var(--bs-primary);
+  }
+  
+  .content-wrap .post_title {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 57px;
+    line-height: 1.2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .fruite-name .cate-child {
+    opacity: 0; /* Ẩn danh mục con */
+    max-height: 0; /* Giới hạn chiều cao */
+    overflow: hidden; /* Ẩn phần thừa */
+    transition: opacity 0.5s ease, max-height 0.5s ease; /* Thêm transition */
+  }
+  
+  .fruite-name:hover .cate-child {
+    opacity: 1; /* Hiển thị danh mục con */
+    max-height: 500px; /* Điều chỉnh chiều cao tối đa khi hover */
+  }
+  
+  .cate-parent {
+    font-size: 20px;
+  }
+  .cate-child a {
+    font-size: 16px;
+    color: black;
+  }
+  .cate-child a:hover {
+    color: var(--bs-primary);
+  }
+  
+  .best-sel-price del {
+    color: #333;
+    font-size: 13px;
+  }
+  .best-sel-price ins {
+    text-decoration: none;
+  }
+  
+  .best-sell-fruite-img {
+    border: 1px solid var(--bs-primary);
+  }
+  
+  .best-sell-title {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 43px;
+    margin: 0 auto;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .best-sell-fruite-img .img-fluid {
+    height: 350px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  
+  .best-sell-price {
+    flex-direction: column;
+  }
+  
+  #carouselId img {
+    width: 625px;
+    height: 415px;
+  }
+  
+  .con-1 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .marquee-text {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--bs-primary);
+    overflow: hidden;
+  }
+  .marquee-text h2 {
+    /* color: #81c408; */
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: transparent;
+    color: #fff;
+    white-space: nowrap;
+    padding: 3rem 0.5rem;
+    letter-spacing: 1px;
+    animation: move_rtl 6000ms linear infinite;
+  }
+  @keyframes move_rtl {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  #menu-top-menu {
+    flex-direction: row;
+  }
+  .footer-item iframe {
+    border-radius: 20px;
+  }
+  h4#footer-subcribe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  ul.ssbp-list li p {
+    display: none !important;
+  }
+  
